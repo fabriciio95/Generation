@@ -1,8 +1,8 @@
-package exercicios.sequencial;
+package exercicios.lista1;
 
 import java.util.Scanner;
 
-public class Numero8 {
+public class Tarefa8 {
 
 	public static void main(String[] args) {
 		//Locale.setDefault(Locale.US);

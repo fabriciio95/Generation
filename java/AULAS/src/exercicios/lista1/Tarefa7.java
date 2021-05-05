@@ -1,8 +1,8 @@
-package exercicios.sequencial;
+package exercicios.lista1;
 
 import java.util.Scanner;
 
-public class Numero7 {
+public class Tarefa7 {
 	
 	public static void main(String[] args) {
 		
