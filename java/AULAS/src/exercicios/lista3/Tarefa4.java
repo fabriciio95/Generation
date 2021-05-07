@@ -10,7 +10,7 @@ public class Tarefa4 {
 		int pessoasCalmas = 0, mulheresNervosas = 0, homensAgressivos = 0, outrosCalmos = 0, pessoasNervosasComMais40 = 0,
 		pessoasCalmasComMenos18 = 0, contador = 0;
 		
-		while(contador < 10) {
+		while(contador < 3) {
 			System.out.print("Idade: ");
 			int idade = sc.nextInt();
 			
@@ -25,7 +25,7 @@ public class Tarefa4 {
 				pessoasCalmas++;
 			}
 			
-			if(caracteristica == 2 && sexo == 1) {
+		    if(caracteristica == 2 && sexo == 1) {
 				mulheresNervosas++;
 			}
 			
