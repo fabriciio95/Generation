@@ -13,20 +13,22 @@ public class App {
 	public static void main(String[] args) {
 		
 		Cliente cliente = new Cliente();
-		cliente.id = 1;
-		cliente.nome = "Rodrigo Torres";
-		cliente.cpf = "382.239.293-23";
-		cliente.idade = 55;
+		cliente.setId(1);
+		cliente.setNome("Rodrigo Torres");
+		cliente.setCpf("382.239.293-23");
+		cliente.setIdade(55);
 		System.out.println("==== EXERCÍCIO 1 - CLIENTE ====");
 		cliente.exibirDadosCliente();
 		
 		Aviao aviao = new Aviao();
-		aviao.id = 1;
-		aviao.fabricante = "DEASER";
-		aviao.numeroModelo = "777-31H";
-		aviao.assentos = 186;
+		aviao.setId(1);
+		aviao.setFabricante("DEASER");
+		aviao.setNumeroModelo("777-31H");
+		aviao.setAssentos(186);
 		System.out.println("\n==== EXERCÍCIO 2 - AVIÃO ====");
 		aviao.exibirDadosAviao();
+		aviao.decolar();
+		aviao.pousar();
 		
 		
 		ProdutoEletronico produtoEletronico = new ProdutoEletronico();
@@ -38,39 +40,40 @@ public class App {
 		produtoEletronico.exibirDadosProduto();
 		
 		Funcionario funcionario = new Funcionario();
-		funcionario.id = 1;
-		funcionario.nome = "Milton Silva";
-		funcionario.cpf = "283-234-234-33";
-		funcionario.salario = 4500;
+		funcionario.setId(1);
+		funcionario.setNome("Milton Silva");
+		funcionario.setCpf("283-234-234-33");
+		funcionario.setSalario(4500);
 		System.out.println("\n==== EXERCÍCIO 4 - FUNCIONÁRIO ====");
 		funcionario.exibirDadosFuncionario();
 		
 		Patinete patinete = new Patinete();
-		patinete.id = 1;
-		patinete.tamanho = "PEQUENO";
-		patinete.rodas = 3;
-		patinete.cesta = true;
-		patinete.cor = "PRETO";
+		patinete.setId(1);
+		patinete.setTamanho("PEQUENO");
+		patinete.setRodas(3);
+		patinete.setCesta(true);
+		patinete.setCor("PRETO");
 		System.out.println("\n==== EXERCÍCIO 5 - PATINETE ====");
 		patinete.exibirDadosPatinete();
 		
 		ContaBancaria conta = new ContaBancaria();
-		conta.id = 1;
-		conta.ativa = true;
-		conta.numero = "14434/2";
-		conta.tipo = "POUPANÇA";
-		conta.titular = "RODOLFO CAETANO";
-		conta.saldo = 345.33;
+		conta.setId(1);
+		conta.ativarConta();
+		conta.setNumero("14434/2");
+		conta.setTipo("POUPANÇA");;
+		conta.setTitular("RODOLFO CAETANO");;
+		conta.depositar(345.33);
+		conta.sacar(100);
 		System.out.println("\n==== EXERCÍCIO 6 - CONTA BANCÁRIA ====");
 		conta.exibirDadosContaBancaria();
 		
 		
 		Paciente paciente = new Paciente();
-		paciente.id = 1;
-		paciente.nome = "Mayara Freire";
-		paciente.rg = "33.343.349-9";
-		paciente.idade = 34;
-		paciente.diagnostico = "RESFRIADO";
+		paciente.setId(1);
+		paciente.setNome("Mayara Freire");;
+		paciente.setRg("33.343.349-9");;
+		paciente.setIdade(34);
+		paciente.setDiagnostico("RESFRIADO");
 		System.out.println("\n==== EXERCÍCIO 7 - PACIENTE ====");
 		paciente.exibirDadosPaciente();
 		
