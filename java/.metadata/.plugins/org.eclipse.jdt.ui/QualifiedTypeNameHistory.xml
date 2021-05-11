@@ -15,6 +15,14 @@
     <fullyQualifiedTypeName name="exercicios.lista5.entidades.Funcionario"/>
     <fullyQualifiedTypeName name="exercicios.lista5.entidades.Patinente"/>
     <fullyQualifiedTypeName name="exercicios.lista5.entidades.Patinete"/>
-    <fullyQualifiedTypeName name="exercicios.lista5.entidades.ContaBancaria"/>
     <fullyQualifiedTypeName name="exercicios.lista5.entidades.Paciente"/>
+    <fullyQualifiedTypeName name="exercicios.lista5.entidades.ContaBancaria"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="exemplos.poo.principal.ExemploApp"/>
+    <fullyQualifiedTypeName name="escola.entities.Estudante"/>
+    <fullyQualifiedTypeName name="exercicios.lista6.classes.Animal"/>
+    <fullyQualifiedTypeName name="exercicios.lista6.classes.Cachorro"/>
+    <fullyQualifiedTypeName name="exercicios.lista6.classes.Cavalo"/>
+    <fullyQualifiedTypeName name="exercicios.lista6.classes.Preguica"/>
 </qualifiedTypeNameHistroy>
