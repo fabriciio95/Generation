@@ -9,10 +9,6 @@ public class Cavalo extends Animal{
 	
 	@Override
 	public void emitirSom() {
-		System.out.println("AU AU AU AU AU");
-	}
-	
-	public void correr() {
-		System.out.println("CORRENDO...");
+		System.out.println("HINN  IN IN ");
 	}
 }

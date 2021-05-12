@@ -28,4 +28,7 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="escola.entities.Basico"/>
+    <fullyQualifiedTypeName name="exemplos.entidades.Funcionario"/>
+    <fullyQualifiedTypeName name="exercicios.lista6.interfaces.Animal"/>
+    <fullyQualifiedTypeName name="exercicios.lista6.interfaces.InterfaceAnimal"/>
 </qualifiedTypeNameHistroy>

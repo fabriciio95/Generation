@@ -1,6 +1,8 @@
 package exercicios.lista6.classes;
 
-public abstract class Animal {
+import exercicios.lista6.interfaces.InterfaceAnimal;
+
+public abstract class Animal implements InterfaceAnimal {
 	
 	private String nome;
 	private int idade;
@@ -29,8 +31,10 @@ public abstract class Animal {
 		this.idade = idade;
 	}
 	
-	public void emitirSom() {
-		System.out.println("Fazendo som...");
+	
+	@Override
+	public void movimento() {
+		System.out.println("Correndoooo.....");
 	}
 	
 	@Override
