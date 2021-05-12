@@ -1,16 +1,16 @@
 package exercicios.lista6.programa;
 
-import exercicios.lista6.classes.Animal;
 import exercicios.lista6.classes.Cachorro;
 import exercicios.lista6.classes.Cavalo;
 import exercicios.lista6.classes.Preguica;
+import exercicios.lista6.interfaces.InterfaceAnimal;
 
 public class Programa {
 
 	public static void main(String[] args) {
-		Animal cachorro = new Cachorro("Cachorro",  4);
-		Animal cavalo = new Cavalo("Cavalo", 5);
-		Animal preguica = new Preguica("Preguiça",  3);
+		InterfaceAnimal cachorro = new Cachorro("Cachorro",  4);
+		InterfaceAnimal cavalo = new Cavalo("Cavalo", 5);
+		InterfaceAnimal preguica = new Preguica("Preguiça",  3);
 		
 		System.out.println("=== CACHORRO ====");
 		System.out.println(cachorro);
@@ -26,6 +26,7 @@ public class Programa {
 		System.out.println(preguica);
 		preguica.emitirSom();
 		preguica.movimento();
+		
 
 	}
 

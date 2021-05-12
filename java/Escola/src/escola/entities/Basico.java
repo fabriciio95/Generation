@@ -14,6 +14,10 @@ public class Basico extends Estudante {
 		this.diaAniversario = diaAniversario;
 	}
 	
+	public Basico(String nome, int matricula, String cpf, boolean status) {
+		super(nome, matricula, cpf, status);
+	}
+	
 	public Basico(String nome, int matricula, String cpf, double pontos, boolean status, int diaAniversario) {
 		super(nome, matricula,cpf, pontos, status);
 		this.diaAniversario = diaAniversario;

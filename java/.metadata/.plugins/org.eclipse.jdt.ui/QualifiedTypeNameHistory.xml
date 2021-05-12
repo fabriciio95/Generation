@@ -19,16 +19,20 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="exemplos.poo.principal.ExemploApp"/>
-    <fullyQualifiedTypeName name="escola.entities.Estudante"/>
     <fullyQualifiedTypeName name="exercicios.lista6.classes.Animal"/>
     <fullyQualifiedTypeName name="exercicios.lista6.classes.Cachorro"/>
     <fullyQualifiedTypeName name="exercicios.lista6.classes.Cavalo"/>
     <fullyQualifiedTypeName name="exercicios.lista6.classes.Preguica"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="escola.entities.Basico"/>
     <fullyQualifiedTypeName name="exemplos.entidades.Funcionario"/>
     <fullyQualifiedTypeName name="exercicios.lista6.interfaces.Animal"/>
     <fullyQualifiedTypeName name="exercicios.lista6.interfaces.InterfaceAnimal"/>
+    <fullyQualifiedTypeName name="escola.entities.Estudante"/>
+    <fullyQualifiedTypeName name="escola.entities.Basico"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="escola.entities.Pos"/>
+    <fullyQualifiedTypeName name="escola.utils.UI"/>
+    <fullyQualifiedTypeName name="escola.services.EstudanteService"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

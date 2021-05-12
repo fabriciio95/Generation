@@ -4,4 +4,5 @@ public interface InterfaceAnimal {
 
 	void emitirSom();
 	void movimento();
+	
 }
