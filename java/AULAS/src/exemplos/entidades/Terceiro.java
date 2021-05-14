@@ -17,6 +17,7 @@ public class Terceiro extends Funcionario {
 	public void setAdicional(double adicional) {
 		this.adicional = adicional;
 	}
+	
 
 	@Override
 	public void mostrarSalario()
@@ -26,7 +27,7 @@ public class Terceiro extends Funcionario {
 
 	@Override
 	public String toString() {
-		return "Dados do terceiro" + "\n\nMatricula: "+super.getMatricula()+"\nHoras Trabalhadas: "+super.getHorasTrabalhadas()+
+		return "\nMatricula: "+super.getMatricula()+"\nHoras Trabalhadas: "+super.getHorasTrabalhadas()+
 				"\nNome: "+super.getNome()+"\nSalario hora: "+super.getSalarioHora()+"\nadicional: " + adicional;
 	}
 	

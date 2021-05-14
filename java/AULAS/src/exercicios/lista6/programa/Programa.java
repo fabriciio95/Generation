@@ -26,8 +26,5 @@ public class Programa {
 		System.out.println(preguica);
 		preguica.emitirSom();
 		preguica.movimento();
-		
-
 	}
-
 }
