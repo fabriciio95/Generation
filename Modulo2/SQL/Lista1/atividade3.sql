@@ -1,7 +1,6 @@
 CREATE DATABASE db_escola;
 
 USE db_escola;
-drop table tb_alunos;
 CREATE TABLE tb_alunos
 (
 	id SERIAL PRIMARY KEY,
